@@ -156,20 +156,130 @@ section .amazing_work{
   line-height: 22px;
 }
 
-.like_to_write{
-  max-width: 100%;
 
-}
-
-.like_to_write h3{
-  color: #d4af37;
-  font-size: 13px;
+.last-post {
+  max-width: 769px;
+  margin: auto;
   text-align: center;
+  padding-bottom: 160px;
 }
 
-.Last_post_item{
+.last-post h5 {
+  color: #d4af37;
+  font-family: "Open Sans - Semibold", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  margin-bottom: 22px;
+}
+
+.last-post h3 {
+  margin-bottom: 51px;
+  color: #505d68;
+  font-family: "Open Sans - Semibold", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 2.2px;
+}
+
+.last-post_flex {
+  max-width: 769px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 85px;
+
+}
+
+.last-post_content, .last-post_img {
+  width: 50%;
+  height: 100%;
+}
+
+.last-post_flex img {
+  width: 100%;
+}
+
+
+.last-post_content {
+  background-color: #f9f9f9;
+  padding: 40px 38px 60px;
+  text-align: left;
+}
+
+.last-post_content h6 {
+  color: #505d68;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  margin-bottom: 20px;
+}
+
+.last-post_content h4 {
+  color: #505d68;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  margin-bottom: 33px;
+}
+
+.last-post_content p {
+  color: #505d68;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24.7px;
+  letter-spacing: 0.8px;
+  margin-bottom: 60px;
+}
+
+.last-post_read {
+  padding: 18px 48px;
+  color: #021725;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.Read_More_About_Us:hover {
+  background-color: #347bb9;
+  color: white;
+  box-shadow: 0 0 5px 2px #d4af37;
+}
+
+
+.last-post_more:hover {
+  background-color: #347bb9;
+  color: white;
+  box-shadow: 0 0 5px 2px #d4af37;;
+}
+
+.last-post_read:hover {
+  background-color: #347bb9;
+  color: white;
+  box-shadow: 0 0 5px 2px #d4af37;;
+}
+
+.last-post_more {
+  padding: 23px 51px;
+  border: 1px solid #000000;
+  text-decoration: none;
+
+  color: #021725;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7px;
+
 }
 
 
@@ -181,14 +291,16 @@ section .amazing_work{
 .contact .wraper {
   display: flex;
   flex-direction: column;
-
+  max-width: 769px;
+  margin: auto;
+  text-align: center;
 }
 
 iframe {
   max-width: 100%;
-  margin: auto;
   position: relative;
 }
+
 
 .contact h5 {
   color: #d4af37;
