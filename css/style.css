@@ -361,6 +361,20 @@ iframe {
   display: none;
 }
 
+.footer_mw{
+  display: flex;
+  justify-content: space-between;
+  height: 93px;
+  background-color: red;
+}
+
+.footer_item,.footer_item_email{
+  max-width: 769px;
+  margin: auto;
+}
+
+
+
 html {
   padding: 0px!important;
   margin: 0;
