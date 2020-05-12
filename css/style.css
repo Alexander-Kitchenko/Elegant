@@ -362,15 +362,23 @@ iframe {
 }
 
 .footer_mw{
-  display: flex;
-  justify-content: space-between;
+
+
   height: 93px;
   background-color: red;
 }
 
-.footer_item,.footer_item_email{
+.footer_inside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   max-width: 769px;
   margin: auto;
+
+}
+.footer_item,.footer_item_email{
+
 }
 
 
