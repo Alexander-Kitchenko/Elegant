@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 768px) {
+
+	.Home {
+		background-image: url("images/photo_2020-05-12_21-11-04.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+	}
+
+
+}
+
+
