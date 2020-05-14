@@ -2,9 +2,9 @@
     position: fixed;
     right: 20px;
     top: 20px;
-    cursor: pointer; 
+    cursor: pointer;
     background: #111;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     background-clip: content-box;
     width: 30px;
     height: 24px;
@@ -153,27 +153,7 @@
 }
 
 // ---------------- Display --------------------
-html {
-    padding: 80px;
-    margin: 0;
-    background: #eee;
-    color: #222;
-    font-weight: 300;
-    font-family: 'Raleway';  
-}
 
-
-h1 {
-    font-size: 2rem;
-    color: #222;
-}
-
-p {
-    line-height: 40px;
-    font-size: 16px;
-    font-family: 'Crimson Text';
-    color: #222;
-}
 
 
 

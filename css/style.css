@@ -128,7 +128,12 @@ section .amazing_work{
 
 .team{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 769px;
+  margin: auto;
 }
 
 .people_seo,.people_designer,.people_developer{
@@ -362,35 +367,29 @@ iframe {
 }
 
 .footer_mw{
-
-
   height: 93px;
-  background-color: red;
+  background-color: #eeeeee;
 }
 
 .footer_inside{
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: 769px;
   margin: auto;
+  padding: 42px 20px 35px;
 
 }
 .footer_item,.footer_item_email{
-
-}
-
-
-
-html {
-  padding: 0px!important;
-  margin: 0;
-  background: #eee;
-  color: #222;
+font-size: 16px;
+  color: #505d68;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-family: 'Raleway';
 }
+
+
+
 
 
 
@@ -442,14 +441,14 @@ html {
   transform: rotate(135deg);
   top: 0;
   background: #eee;
-  width: 110%;
+  width: 100%;
 }
 .navBurger.active:after {
   bottom: 0;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   background: #eee;
-  width: 110%;
+  width: 100%;
 }
 
 .overlay {
@@ -571,23 +570,5 @@ html {
     transform: rotate(0deg);
   }
 }
-html {
-  padding: 80px;
-  margin: 0;
-  background: #eee;
-  color: #222;
-  font-weight: 300;
-  font-family: 'Raleway';
-}
 
-h1 {
-  font-size: 2rem;
-  color: #222;
-}
 
-p {
-  line-height: 40px;
-  font-size: 16px;
-  font-family: 'Crimson Text';
-  color: #222;
-}
